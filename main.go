@@ -1,8 +1,8 @@
 package main
 
 import (
-	"cmdtools/cmd"
 	"fmt"
+	"github.com/katsukamaru/cmdtools/cmd"
 	"os"
 )
 
