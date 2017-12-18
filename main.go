@@ -1,12 +1,14 @@
 package main
 
 import (
+	"cmdtools/cmd"
 	"fmt"
 	"os"
 )
 
 func main() {
-	fmt.Println("hello world")
-	os.Exit(0)
+	if err := cmd.RootCmd.Execute(); err != nil {
+		fmt.Println(err)
+		os.Exit(-1)
+	}
 }
-
