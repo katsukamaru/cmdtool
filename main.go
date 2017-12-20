@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/katsukamaru/cmdtools/cmd"
+	"github.com/katsukamaru/cmdtool/cmd"
 	"os"
 )
 
